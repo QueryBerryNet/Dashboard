@@ -1,0 +1,11 @@
+.navbar-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #011627;
+}
+
+.navbar-header h1, h2, h3, h4, a {
+    color: rgb(127, 219, 202);;
+    text-decoration: none;
+}

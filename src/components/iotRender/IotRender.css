@@ -1,0 +1,41 @@
+.iot-render-deviceContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.iot-render-device {
+    max-width: 400px;
+    margin: 35px;
+    margin-top: 20px;
+    background-color: #011627;
+    display: block;
+    border: 1px solid rgb(127, 219, 202);
+}
+
+.iot-render-device p {
+    color: rgb(127, 219, 202);
+    font-weight: bold;
+}
+
+.iot-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.iot-sub-container  p {
+    padding-right: 20px;
+}
+
+.iot-col {
+    flex-direction: column;
+}
+
+.iot-padd {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
